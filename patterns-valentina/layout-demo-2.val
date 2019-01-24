@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Valentina v0.6.0.912b (https://valentinaproject.bitbucket.io/).-->
+    <version>0.7.10</version>
+    <unit>cm</unit>
+    <description/>
+    <notes/>
+    <patternLabel/>
+    <measurements/>
+    <increments/>
+    <previewCalculations/>
+    <draw name="Pattern piece 1">
+        <calculation>
+            <point id="1" mx="0.132292" my="0.264583" name="A" type="single" x="0.79375" y="1.05833"/>
+            <point angle="0" basePoint="1" id="2" length="10" lineColor="black" mx="0.132292" my="-0.220507" name="A1" type="endLine" typeLine="hair"/>
+            <point angle="-90" basePoint="2" id="3" length="10" lineColor="black" mx="0.132292" my="0.264583" name="A2" type="endLine" typeLine="hair"/>
+            <point angle="250" basePoint="1" id="4" length="5" lineColor="black" mx="0.132292" my="0.264583" name="A3" type="endLine" typeLine="hair"/>
+            <spline angle1="231.836" angle2="248.286" color="black" id="5" length1="3.68694" length2="3.15692" point1="3" point4="4" type="simpleInteractive"/>
+        </calculation>
+        <modeling>
+            <point id="6" idObject="1" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="7" idObject="2" inUse="false" mx="0.132292" my="-0.220507" showLabel="true" type="modeling"/>
+            <point id="8" idObject="3" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="9" idObject="5" inUse="false" type="modelingSpline"/>
+            <point id="11" idObject="1" inUse="true" type="pin"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="10" inLayout="true" mx="0" my="0" name="Detail" seamAllowance="true" united="false" version="2" width="1">
+                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="6" type="NodePoint"/>
+                    <node after="CurrentSeamAllowance*3" before="CurrentSeamAllowance*2" idObject="7" type="NodePoint"/>
+                    <node after="CurrentSeamAllowance*2" before="CurrentSeamAllowance*2" idObject="8" type="NodePoint"/>
+                    <node idObject="9" reverse="0" type="NodeSpline"/>
+                </nodes>
+                <pins>
+                    <record>11</record>
+                </pins>
+            </detail>
+        </details>
+        <groups/>
+    </draw>
+</pattern>

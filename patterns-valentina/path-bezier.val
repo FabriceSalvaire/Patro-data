@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Valentina v0.6.0.912b (https://valentinaproject.bitbucket.io/).-->
+    <version>0.7.10</version>
+    <unit>cm</unit>
+    <description/>
+    <notes/>
+    <measurements/>
+    <increments/>
+    <previewCalculations/>
+    <draw name="Pattern piece 1">
+        <calculation>
+            <point id="1" mx="0.132292" my="0.264583" name="A" showLabel="true" type="single" x="0.79375" y="1.05833"/>
+            <point angle="0" basePoint="1" id="2" length="10&#10;" lineColor="black" mx="0.132292" my="0.264583" name="A1" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="1" id="3" length="10" lineColor="black" mx="0.132292" my="0.264583" name="A2" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="90" basePoint="2" id="4" length="10" lineColor="black" mx="0.132292" my="0.264583" name="A3" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="45" basePoint="4" id="5" length="10" lineColor="black" mx="-0.873493" my="-3.00422" name="A4" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="315" basePoint="5" id="6" length="10" lineColor="black" mx="0.132292" my="0.264583" name="A5" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="45" basePoint="6" id="7" length="10" lineColor="black" mx="0.132292" my="0.264583" name="A6" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="315" basePoint="7" id="8" length="20" lineColor="black" mx="-4.20882" my="-0.715669" name="A7" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="225" basePoint="8" id="9" length="10" lineColor="blue" mx="-0.389534" my="0.815909" name="A8" showLabel="true" type="endLine" typeLine="hair"/>
+            <spline aScale="0" angle1="318.186" angle2="136.752" color="blue" id="10" length1="1.67379" length2="1.30265" penStyle="hair" point1="7" point4="8" type="simpleInteractive"/>
+            <spline aScale="0" angle1="358.888" angle2="84.5157" color="black" duplicate="1" id="11" length1="12.1938" length2="8.21391" penStyle="hair" point1="7" point4="8" type="simpleInteractive"/>
+            <spline aScale="0" angle1="296.854" angle2="314.842" color="black" id="12" length1="9.82426" length2="5.50513" penStyle="hair" point1="8" point4="9" type="simpleInteractive"/>
+            <point angle="180" basePoint="9" id="13" length="10" lineColor="blue" mx="-2.50967" my="-1.20801" name="A9" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="13" id="14" length="10" lineColor="blue" mx="-4.1388" my="-2.88623" name="A10" showLabel="true" type="endLine" typeLine="hair"/>
+            <spline aScale="0" angle1="87.0314" angle2="90.3133" color="black" id="15" length1="6.82986" length2="6.37923" penStyle="hair" point1="9" point4="13" type="simpleInteractive"/>
+            <spline aScale="0" angle1="337.217" angle2="21.1487" color="black" id="16" length1="10.8122" length2="7.20244" penStyle="hair" point1="13" point4="14" type="simpleInteractive"/>
+            <point angle="180" basePoint="14" id="17" length="10" lineColor="blue" mx="-2.10828" my="-2.32608" name="A11" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="17" id="18" length="10" lineColor="blue" mx="0.132292" my="0.264583" name="A12" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="18" id="19" length="10" lineColor="black" mx="0.972508" my="-1.69592" name="A13" showLabel="true" type="endLine" typeLine="hair"/>
+            <spline aScale="0" angle1="311.168" angle2="274.37" color="black" id="20" length1="8.69645" length2="8.16134" penStyle="hair" point1="14" point4="17" type="simpleInteractive"/>
+            <spline aScale="0" angle1="206.48" angle2="165.573" color="black" id="21" length1="9.43583" length2="1.47302" penStyle="hair" point1="17" point4="18" type="simpleInteractive"/>
+            <point angle="270" basePoint="19" id="22" length="10" lineColor="blue" mx="0.132292" my="0.264583" name="A14" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="22" id="23" length="10&#10;" lineColor="black" mx="0.132292" my="0.264583" name="A15" showLabel="true" type="endLine" typeLine="hair"/>
+            <spline aScale="0" angle1="217.199" angle2="146.582" color="black" id="24" length1="7.58533" length2="1.35428" penStyle="hair" point1="19" point4="22" type="simpleInteractive"/>
+            <line firstPoint="3" id="25" lineColor="black" secondPoint="23" typeLine="hair"/>
+        </calculation>
+        <modeling>
+            <point id="26" idObject="1" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="27" idObject="2" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="28" idObject="4" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="29" idObject="5" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="30" idObject="6" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="31" idObject="10" inUse="false" type="modelingSpline"/>
+            <spline id="32" idObject="11" inUse="false" type="modelingSpline"/>
+            <spline id="33" idObject="12" inUse="false" type="modelingSpline"/>
+            <spline id="34" idObject="15" inUse="false" type="modelingSpline"/>
+            <spline id="35" idObject="16" inUse="false" type="modelingSpline"/>
+            <spline id="36" idObject="20" inUse="false" type="modelingSpline"/>
+            <spline id="37" idObject="21" inUse="false" type="modelingSpline"/>
+            <point id="38" idObject="18" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="39" idObject="19" inUse="false" mx="0.972508" my="-1.69592" showLabel="true" type="modeling"/>
+            <spline id="40" idObject="21" inUse="false" type="modelingSpline"/>
+        </modeling>
+        <details/>
+        <groups/>
+    </draw>
+</pattern>
